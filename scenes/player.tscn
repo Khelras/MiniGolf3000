@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://b48j6pl6b8w1"]
+
+[ext_resource type="PackedScene" uid="uid://i3efnnefb2sx" path="res://assets/models/ball-green.glb" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://k0a40nrtjn7" path="res://scripts/PlayerController.cs" id="1_g2els"]
+[ext_resource type="Script" uid="uid://dpcc6ptxyw6pl" path="res://scripts/CameraController.cs" id="3_qhqgy"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_lb1cl"]
+
+[node name="Player" type="CharacterBody3D" unique_id=196068425]
+collision_layer = 3
+script = ExtResource("1_g2els")
+
+[node name="GoldBallMesh" parent="." unique_id=712450006 instance=ExtResource("1_3vyb7")]
+transform = Transform3D(14, 0, 0, 0, 14, 0, 0, 0, 14, 0, 0.5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1462621464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("SphereShape3D_lb1cl")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="." unique_id=1769173360 node_paths=PackedStringArray("camera")]
+transform = Transform3D(1.0000002, 0, 0, 0, 1.0000004, 0, 0, 0, 0.99999976, 0, 0.5, 0)
+collision_mask = 3
+spring_length = 2.5
+script = ExtResource("3_qhqgy")
+camera = NodePath("Camera3D")
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D" unique_id=1851247637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.5)

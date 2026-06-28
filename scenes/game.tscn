@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cehuh0vdyvi2l"]
+
+[ext_resource type="PackedScene" uid="uid://b48j6pl6b8w1" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Texture2D" uid="uid://dwcn1uux4vycm" path="res://icon.svg" id="2_yqjtg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5pf5e"]
+size = Vector3(20, 0.1, 20)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lnu2h"]
+albedo_texture = ExtResource("2_yqjtg")
+
+[sub_resource type="BoxMesh" id="BoxMesh_5pf5e"]
+lightmap_size_hint = Vector2i(204, 107)
+material = SubResource("StandardMaterial3D_lnu2h")
+size = Vector3(20, 0.1, 20)
+
+[node name="Game" type="Node3D" unique_id=409596433]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1792141252]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
+
+[node name="Player" parent="." unique_id=196068425 instance=ExtResource("1_uwrxv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.063569635, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1920302477]
+collision_layer = 3
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1041982046]
+shape = SubResource("BoxShape3D_5pf5e")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1145884911]
+mesh = SubResource("BoxMesh_5pf5e")
