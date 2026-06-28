@@ -1,18 +1,49 @@
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
+# ==========================================
+# Godot 4.x Engine Ignores
+# ==========================================
 # Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
+.godot/
 *.tmp
 
 # Imported translations (automatically generated from CSV files)
 *.translation
 
-# Mono-specific ignores
+# ==========================================
+# .NET / C# Build Outputs (Mono)
+# ==========================================
 .mono/
-data_*/
+[Bb]in/
+[Oo]bj/
 mono_crash.*.json
-/android/
+
+# ==========================================
+# JetBrains Rider (macOS)
+# ==========================================
+.idea/
+*.sln.iml
+*.csproj.iml
+
+# ==========================================
+# Visual Studio (Windows)
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VisualState.xml
+
+# ==========================================
+# Operating System Specific
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
