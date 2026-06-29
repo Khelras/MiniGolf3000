@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://bhx71clym6c2k"
-path="res://.godot/imported/structure-windmill.glb-9a2b622a04ecd11b3f787e73622f9fe8.scn"
+path="res://.godot/imported/structure-windmill.glb-9a2b622a04ecd11b3f787e73622f9fe8.res"
 
 [deps]
 
 source_file="res://assets/models/structure-windmill.glb"
-dest_files=["res://.godot/imported/structure-windmill.glb-9a2b622a04ecd11b3f787e73622f9fe8.scn"]
+dest_files=["res://.godot/imported/structure-windmill.glb-9a2b622a04ecd11b3f787e73622f9fe8.res"]
 
 [params]
 

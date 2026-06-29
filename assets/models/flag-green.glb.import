@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dftka2wotd40y"
-path="res://.godot/imported/flag-green.glb-d5339c13fbe7e0f85ad67f99bea9f211.scn"
+path="res://.godot/imported/flag-green.glb-d5339c13fbe7e0f85ad67f99bea9f211.res"
 
 [deps]
 
 source_file="res://assets/models/flag-green.glb"
-dest_files=["res://.godot/imported/flag-green.glb-d5339c13fbe7e0f85ad67f99bea9f211.scn"]
+dest_files=["res://.godot/imported/flag-green.glb-d5339c13fbe7e0f85ad67f99bea9f211.res"]
 
 [params]
 

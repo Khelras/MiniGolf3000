@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://csvabb5piiv1a"
-path="res://.godot/imported/spline-default-curve.glb-3bd552be077f4d3c00508a02341f6791.scn"
+path="res://.godot/imported/spline-default-curve.glb-3bd552be077f4d3c00508a02341f6791.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-curve.glb"
-dest_files=["res://.godot/imported/spline-default-curve.glb-3bd552be077f4d3c00508a02341f6791.scn"]
+dest_files=["res://.godot/imported/spline-default-curve.glb-3bd552be077f4d3c00508a02341f6791.res"]
 
 [params]
 

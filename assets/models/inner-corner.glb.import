@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://buv43dj3n17ib"
-path="res://.godot/imported/inner-corner.glb-5bc0d0ebf3149987ff02d881cf8434ab.scn"
+path="res://.godot/imported/inner-corner.glb-5bc0d0ebf3149987ff02d881cf8434ab.res"
 
 [deps]
 
 source_file="res://assets/models/inner-corner.glb"
-dest_files=["res://.godot/imported/inner-corner.glb-5bc0d0ebf3149987ff02d881cf8434ab.scn"]
+dest_files=["res://.godot/imported/inner-corner.glb-5bc0d0ebf3149987ff02d881cf8434ab.res"]
 
 [params]
 

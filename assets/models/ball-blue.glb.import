@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dlug2npxy2w3d"
-path="res://.godot/imported/ball-blue.glb-f9a824d0377e013de3b20596da757338.scn"
+path="res://.godot/imported/ball-blue.glb-f9a824d0377e013de3b20596da757338.res"
 
 [deps]
 
 source_file="res://assets/models/ball-blue.glb"
-dest_files=["res://.godot/imported/ball-blue.glb-f9a824d0377e013de3b20596da757338.scn"]
+dest_files=["res://.godot/imported/ball-blue.glb-f9a824d0377e013de3b20596da757338.res"]
 
 [params]
 

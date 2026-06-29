@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://ckpdcrg8jjs1v"
-path="res://.godot/imported/split-start.glb-8d3a3065e2971b913354928498c3bd23.scn"
+path="res://.godot/imported/split-start.glb-8d3a3065e2971b913354928498c3bd23.res"
 
 [deps]
 
 source_file="res://assets/models/split-start.glb"
-dest_files=["res://.godot/imported/split-start.glb-8d3a3065e2971b913354928498c3bd23.scn"]
+dest_files=["res://.godot/imported/split-start.glb-8d3a3065e2971b913354928498c3bd23.res"]
 
 [params]
 

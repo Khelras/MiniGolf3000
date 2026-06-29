@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://bfe3xb8f7gu31"
-path="res://.godot/imported/spline-default-cap-back.glb-31f80f81e03b512cef1b75220e050c02.scn"
+path="res://.godot/imported/spline-default-cap-back.glb-31f80f81e03b512cef1b75220e050c02.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-cap-back.glb"
-dest_files=["res://.godot/imported/spline-default-cap-back.glb-31f80f81e03b512cef1b75220e050c02.scn"]
+dest_files=["res://.godot/imported/spline-default-cap-back.glb-31f80f81e03b512cef1b75220e050c02.res"]
 
 [params]
 

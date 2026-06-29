@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://p0dh2vkcmyq3"
-path="res://.godot/imported/spline-default-straight-hill-complete-half.glb-a68e4516652649051bb1587396dff06a.scn"
+path="res://.godot/imported/spline-default-straight-hill-complete-half.glb-a68e4516652649051bb1587396dff06a.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-straight-hill-complete-half.glb"
-dest_files=["res://.godot/imported/spline-default-straight-hill-complete-half.glb-a68e4516652649051bb1587396dff06a.scn"]
+dest_files=["res://.godot/imported/spline-default-straight-hill-complete-half.glb-a68e4516652649051bb1587396dff06a.res"]
 
 [params]
 

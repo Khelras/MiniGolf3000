@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://c06guqwegwixx"
-path="res://.godot/imported/straight.glb-529e31a90bd7f41dd541604004b0338b.scn"
+path="res://.godot/imported/straight.glb-529e31a90bd7f41dd541604004b0338b.res"
 
 [deps]
 
 source_file="res://assets/models/straight.glb"
-dest_files=["res://.godot/imported/straight.glb-529e31a90bd7f41dd541604004b0338b.scn"]
+dest_files=["res://.godot/imported/straight.glb-529e31a90bd7f41dd541604004b0338b.res"]
 
 [params]
 

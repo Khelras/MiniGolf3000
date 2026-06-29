@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://bmitwsucmh3e6"
-path="res://.godot/imported/block.glb-62d0ff0d1624ee38b4fd778c8fb911cf.scn"
+path="res://.godot/imported/block.glb-62d0ff0d1624ee38b4fd778c8fb911cf.res"
 
 [deps]
 
 source_file="res://assets/models/block.glb"
-dest_files=["res://.godot/imported/block.glb-62d0ff0d1624ee38b4fd778c8fb911cf.scn"]
+dest_files=["res://.godot/imported/block.glb-62d0ff0d1624ee38b4fd778c8fb911cf.res"]
 
 [params]
 

@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://cxokt4pmwq8gu"
-path="res://.godot/imported/hill-corner.glb-8f7c9c06c6e3acf723afdf6834091677.scn"
+path="res://.godot/imported/hill-corner.glb-8f7c9c06c6e3acf723afdf6834091677.res"
 
 [deps]
 
 source_file="res://assets/models/hill-corner.glb"
-dest_files=["res://.godot/imported/hill-corner.glb-8f7c9c06c6e3acf723afdf6834091677.scn"]
+dest_files=["res://.godot/imported/hill-corner.glb-8f7c9c06c6e3acf723afdf6834091677.res"]
 
 [params]
 

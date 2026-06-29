@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://kjvv4du41ma2"
-path="res://.godot/imported/hill-round.glb-ce837071e785ce1e50c4af0364e81262.scn"
+path="res://.godot/imported/hill-round.glb-ce837071e785ce1e50c4af0364e81262.res"
 
 [deps]
 
 source_file="res://assets/models/hill-round.glb"
-dest_files=["res://.godot/imported/hill-round.glb-ce837071e785ce1e50c4af0364e81262.scn"]
+dest_files=["res://.godot/imported/hill-round.glb-ce837071e785ce1e50c4af0364e81262.res"]
 
 [params]
 

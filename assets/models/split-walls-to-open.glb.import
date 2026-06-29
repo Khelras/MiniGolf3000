@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://biuhrkb416nuc"
-path="res://.godot/imported/split-walls-to-open.glb-ae2e842919467d83ef9adb027858ddc3.scn"
+path="res://.godot/imported/split-walls-to-open.glb-ae2e842919467d83ef9adb027858ddc3.res"
 
 [deps]
 
 source_file="res://assets/models/split-walls-to-open.glb"
-dest_files=["res://.godot/imported/split-walls-to-open.glb-ae2e842919467d83ef9adb027858ddc3.scn"]
+dest_files=["res://.godot/imported/split-walls-to-open.glb-ae2e842919467d83ef9adb027858ddc3.res"]
 
 [params]
 

@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://b2a73x0qt82jl"
-path="res://.godot/imported/support-low-bottom.glb-dbb3a22fae15f1f9636d8e0de416b2da.scn"
+path="res://.godot/imported/support-low-bottom.glb-dbb3a22fae15f1f9636d8e0de416b2da.res"
 
 [deps]
 
 source_file="res://assets/models/support-low-bottom.glb"
-dest_files=["res://.godot/imported/support-low-bottom.glb-dbb3a22fae15f1f9636d8e0de416b2da.scn"]
+dest_files=["res://.godot/imported/support-low-bottom.glb-dbb3a22fae15f1f9636d8e0de416b2da.res"]
 
 [params]
 

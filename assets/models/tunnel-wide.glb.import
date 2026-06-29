@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dc1pkpt3dxg75"
-path="res://.godot/imported/tunnel-wide.glb-cf4ea1bd65f89e8185ecd34062783101.scn"
+path="res://.godot/imported/tunnel-wide.glb-cf4ea1bd65f89e8185ecd34062783101.res"
 
 [deps]
 
 source_file="res://assets/models/tunnel-wide.glb"
-dest_files=["res://.godot/imported/tunnel-wide.glb-cf4ea1bd65f89e8185ecd34062783101.scn"]
+dest_files=["res://.godot/imported/tunnel-wide.glb-cf4ea1bd65f89e8185ecd34062783101.res"]
 
 [params]
 

@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://hhmkv5308qqj"
-path="res://.godot/imported/flag-large-blue.glb-654ba0fe40ef3cf0a7d39c2ce76c0dfd.scn"
+path="res://.godot/imported/flag-large-blue.glb-654ba0fe40ef3cf0a7d39c2ce76c0dfd.res"
 
 [deps]
 
 source_file="res://assets/models/flag-large-blue.glb"
-dest_files=["res://.godot/imported/flag-large-blue.glb-654ba0fe40ef3cf0a7d39c2ce76c0dfd.scn"]
+dest_files=["res://.godot/imported/flag-large-blue.glb-654ba0fe40ef3cf0a7d39c2ce76c0dfd.res"]
 
 [params]
 

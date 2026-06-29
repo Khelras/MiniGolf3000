@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://b6657cito04sh"
-path="res://.godot/imported/narrow-square.glb-f5a11aca47a1f1d22e240f93c6d77f2c.scn"
+path="res://.godot/imported/narrow-square.glb-f5a11aca47a1f1d22e240f93c6d77f2c.res"
 
 [deps]
 
 source_file="res://assets/models/narrow-square.glb"
-dest_files=["res://.godot/imported/narrow-square.glb-f5a11aca47a1f1d22e240f93c6d77f2c.scn"]
+dest_files=["res://.godot/imported/narrow-square.glb-f5a11aca47a1f1d22e240f93c6d77f2c.res"]
 
 [params]
 

@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://cmjo1wmriq6te"
-path="res://.godot/imported/spline-default-corner-small-ramp.glb-6408a3d48799d4852f3a4a16f969db7b.scn"
+path="res://.godot/imported/spline-default-corner-small-ramp.glb-6408a3d48799d4852f3a4a16f969db7b.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-corner-small-ramp.glb"
-dest_files=["res://.godot/imported/spline-default-corner-small-ramp.glb-6408a3d48799d4852f3a4a16f969db7b.scn"]
+dest_files=["res://.godot/imported/spline-default-corner-small-ramp.glb-6408a3d48799d4852f3a4a16f969db7b.res"]
 
 [params]
 

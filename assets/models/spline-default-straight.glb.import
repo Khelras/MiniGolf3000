@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://c5orjx43hw8p4"
-path="res://.godot/imported/spline-default-straight.glb-3ad1844da59d2ed0732763c9c81cfe54.scn"
+path="res://.godot/imported/spline-default-straight.glb-3ad1844da59d2ed0732763c9c81cfe54.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-straight.glb"
-dest_files=["res://.godot/imported/spline-default-straight.glb-3ad1844da59d2ed0732763c9c81cfe54.scn"]
+dest_files=["res://.godot/imported/spline-default-straight.glb-3ad1844da59d2ed0732763c9c81cfe54.res"]
 
 [params]
 

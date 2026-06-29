@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://i5iu3vsfhfe7"
-path="res://.godot/imported/bump.glb-8b5824069031c4080f2f91f27452a1f1.scn"
+path="res://.godot/imported/bump.glb-8b5824069031c4080f2f91f27452a1f1.res"
 
 [deps]
 
 source_file="res://assets/models/bump.glb"
-dest_files=["res://.godot/imported/bump.glb-8b5824069031c4080f2f91f27452a1f1.scn"]
+dest_files=["res://.godot/imported/bump.glb-8b5824069031c4080f2f91f27452a1f1.res"]
 
 [params]
 

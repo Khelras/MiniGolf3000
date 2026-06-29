@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://bcu8666wyubk5"
-path="res://.godot/imported/spline-default-straight-skew-right-side.glb-acb129a25c4715e97b939e5f60f1036f.scn"
+path="res://.godot/imported/spline-default-straight-skew-right-side.glb-acb129a25c4715e97b939e5f60f1036f.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-straight-skew-right-side.glb"
-dest_files=["res://.godot/imported/spline-default-straight-skew-right-side.glb-acb129a25c4715e97b939e5f60f1036f.scn"]
+dest_files=["res://.godot/imported/spline-default-straight-skew-right-side.glb-acb129a25c4715e97b939e5f60f1036f.res"]
 
 [params]
 

@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dtknagdehoe8c"
-path="res://.godot/imported/hole-round.glb-22609c60b78ed75b6dfb0dc2607a0e50.scn"
+path="res://.godot/imported/hole-round.glb-22609c60b78ed75b6dfb0dc2607a0e50.res"
 
 [deps]
 
 source_file="res://assets/models/hole-round.glb"
-dest_files=["res://.godot/imported/hole-round.glb-22609c60b78ed75b6dfb0dc2607a0e50.scn"]
+dest_files=["res://.godot/imported/hole-round.glb-22609c60b78ed75b6dfb0dc2607a0e50.res"]
 
 [params]
 

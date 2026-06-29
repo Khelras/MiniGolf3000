@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://cngesv8l5b6po"
-path="res://.godot/imported/square-corner-a.glb-0dda2d4c41c0536282f2ef8ea37e6d1e.scn"
+path="res://.godot/imported/square-corner-a.glb-0dda2d4c41c0536282f2ef8ea37e6d1e.res"
 
 [deps]
 
 source_file="res://assets/models/square-corner-a.glb"
-dest_files=["res://.godot/imported/square-corner-a.glb-0dda2d4c41c0536282f2ef8ea37e6d1e.scn"]
+dest_files=["res://.godot/imported/square-corner-a.glb-0dda2d4c41c0536282f2ef8ea37e6d1e.res"]
 
 [params]
 

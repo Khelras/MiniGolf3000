@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://cn6anuyyo6ccx"
-path="res://.godot/imported/gap.glb-3e50e926ba8174743719333d6c55efb6.scn"
+path="res://.godot/imported/gap.glb-3e50e926ba8174743719333d6c55efb6.res"
 
 [deps]
 
 source_file="res://assets/models/gap.glb"
-dest_files=["res://.godot/imported/gap.glb-3e50e926ba8174743719333d6c55efb6.scn"]
+dest_files=["res://.godot/imported/gap.glb-3e50e926ba8174743719333d6c55efb6.res"]
 
 [params]
 

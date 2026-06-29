@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://67kgw0sye1tp"
-path="res://.godot/imported/spline-concave-straight-skew-right-side.glb-6e996445a426258fd24179ad6b8b1eef.scn"
+path="res://.godot/imported/spline-concave-straight-skew-right-side.glb-6e996445a426258fd24179ad6b8b1eef.res"
 
 [deps]
 
 source_file="res://assets/models/spline-concave-straight-skew-right-side.glb"
-dest_files=["res://.godot/imported/spline-concave-straight-skew-right-side.glb-6e996445a426258fd24179ad6b8b1eef.scn"]
+dest_files=["res://.godot/imported/spline-concave-straight-skew-right-side.glb-6e996445a426258fd24179ad6b8b1eef.res"]
 
 [params]
 

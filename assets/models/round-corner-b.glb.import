@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://d4l8ddarnojk6"
-path="res://.godot/imported/round-corner-b.glb-8570e2bbfd711751e45dc23ecb3714d0.scn"
+path="res://.godot/imported/round-corner-b.glb-8570e2bbfd711751e45dc23ecb3714d0.res"
 
 [deps]
 
 source_file="res://assets/models/round-corner-b.glb"
-dest_files=["res://.godot/imported/round-corner-b.glb-8570e2bbfd711751e45dc23ecb3714d0.scn"]
+dest_files=["res://.godot/imported/round-corner-b.glb-8570e2bbfd711751e45dc23ecb3714d0.res"]
 
 [params]
 

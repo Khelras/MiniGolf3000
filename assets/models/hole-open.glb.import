@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://b4c5etxkgyvlk"
-path="res://.godot/imported/hole-open.glb-b7cf6eb3baebe506d10cd4c3bba592e9.scn"
+path="res://.godot/imported/hole-open.glb-b7cf6eb3baebe506d10cd4c3bba592e9.res"
 
 [deps]
 
 source_file="res://assets/models/hole-open.glb"
-dest_files=["res://.godot/imported/hole-open.glb-b7cf6eb3baebe506d10cd4c3bba592e9.scn"]
+dest_files=["res://.godot/imported/hole-open.glb-b7cf6eb3baebe506d10cd4c3bba592e9.res"]
 
 [params]
 

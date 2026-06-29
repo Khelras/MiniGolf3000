@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dnydvw6veyi3"
-path="res://.godot/imported/narrow-round.glb-eb55df1ff8b01bfcc310fbd02d760459.scn"
+path="res://.godot/imported/narrow-round.glb-eb55df1ff8b01bfcc310fbd02d760459.res"
 
 [deps]
 
 source_file="res://assets/models/narrow-round.glb"
-dest_files=["res://.godot/imported/narrow-round.glb-eb55df1ff8b01bfcc310fbd02d760459.scn"]
+dest_files=["res://.godot/imported/narrow-round.glb-eb55df1ff8b01bfcc310fbd02d760459.res"]
 
 [params]
 

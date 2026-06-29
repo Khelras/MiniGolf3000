@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://didwvhr5pb05g"
-path="res://.godot/imported/spline-default-corner-large-ramp.glb-02df9ab4e3dab2bdf7c4b29fd45c8d4d.scn"
+path="res://.godot/imported/spline-default-corner-large-ramp.glb-02df9ab4e3dab2bdf7c4b29fd45c8d4d.res"
 
 [deps]
 
 source_file="res://assets/models/spline-default-corner-large-ramp.glb"
-dest_files=["res://.godot/imported/spline-default-corner-large-ramp.glb-02df9ab4e3dab2bdf7c4b29fd45c8d4d.scn"]
+dest_files=["res://.godot/imported/spline-default-corner-large-ramp.glb-02df9ab4e3dab2bdf7c4b29fd45c8d4d.res"]
 
 [params]
 

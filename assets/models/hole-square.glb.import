@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://dfjg1yf3lpbww"
-path="res://.godot/imported/hole-square.glb-c5c826134d7d9b407b413a967d0d73c2.scn"
+path="res://.godot/imported/hole-square.glb-c5c826134d7d9b407b413a967d0d73c2.res"
 
 [deps]
 
 source_file="res://assets/models/hole-square.glb"
-dest_files=["res://.godot/imported/hole-square.glb-c5c826134d7d9b407b413a967d0d73c2.scn"]
+dest_files=["res://.godot/imported/hole-square.glb-c5c826134d7d9b407b413a967d0d73c2.res"]
 
 [params]
 

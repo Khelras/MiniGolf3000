@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://d0x7b0cvkolht"
-path="res://.godot/imported/obstacle-block.glb-09d0a6333dd3d5a00d3b383d0505c532.scn"
+path="res://.godot/imported/obstacle-block.glb-09d0a6333dd3d5a00d3b383d0505c532.res"
 
 [deps]
 
 source_file="res://assets/models/obstacle-block.glb"
-dest_files=["res://.godot/imported/obstacle-block.glb-09d0a6333dd3d5a00d3b383d0505c532.scn"]
+dest_files=["res://.godot/imported/obstacle-block.glb-09d0a6333dd3d5a00d3b383d0505c532.res"]
 
 [params]
 

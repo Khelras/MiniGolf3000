@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="ArrayMesh"
 importer_version=1
-type="PackedScene"
+type="ArrayMesh"
 uid="uid://crxi55oewfakb"
-path="res://.godot/imported/skew-corner.glb-757816fb490274bdd185e57536abc973.scn"
+path="res://.godot/imported/skew-corner.glb-757816fb490274bdd185e57536abc973.res"
 
 [deps]
 
 source_file="res://assets/models/skew-corner.glb"
-dest_files=["res://.godot/imported/skew-corner.glb-757816fb490274bdd185e57536abc973.scn"]
+dest_files=["res://.godot/imported/skew-corner.glb-757816fb490274bdd185e57536abc973.res"]
 
 [params]
 
