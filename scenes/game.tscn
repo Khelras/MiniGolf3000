@@ -19,8 +19,6 @@ size = Vector3(20, 0.1, 20)
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1792141252]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
 
-[node name="Player3D" parent="." unique_id=576114726 instance=ExtResource("1_uwrxv")]
-
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1920302477]
 collision_layer = 3
 collision_mask = 2
@@ -30,3 +28,6 @@ shape = SubResource("BoxShape3D_5pf5e")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1145884911]
 mesh = SubResource("BoxMesh_5pf5e")
+
+[node name="Player3D" parent="." unique_id=196068425 instance=ExtResource("1_uwrxv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.034106135, 0.08492245, -0.3376432)

@@ -28,7 +28,7 @@ public partial class CameraController : SpringArm3D
 		
 		// Min and Max Pitch Rotations to -+89 (because 90 causes Backward Movement)
 		float minPitchRotation = (-89f * Single.Pi) / 180f; // -89 Degrees
-		float maxPitchRotation = (89f * Single.Pi) / 180f; // 89 Degrees
+		float maxPitchRotation = (45 * Single.Pi) / 180f; // 45 Degrees
 		cameraRotation.X = Mathf.Clamp(cameraRotation.X, minPitchRotation, maxPitchRotation);
 		
 		// Apply the Camera Movement

@@ -3,7 +3,7 @@ using Godot;
 public partial class PlayerController : CharacterBody3D
 {
 	[ExportCategory("Movement")]
-	[Export] public float Speed = 5f;
+	[Export] public float Speed = 2f;
 	[Export] public float Acceleration = 20f;
 	[Export] public float JumpHeight = 4f;
 
@@ -16,8 +16,8 @@ public partial class PlayerController : CharacterBody3D
 		// Ensure the Speed Property was Set Properly
 		if (Speed <= 0f)
 		{
-			GD.PushWarning("Speed set incorrectly, defaulting to 5.");
-			this.Speed = 5f; // Default to 5
+			GD.PushWarning("Speed set incorrectly, defaulting to 2.");
+			this.Speed = 2f;
 		}
 		
 		// Ensure the Acceleration Property was Set Properly
