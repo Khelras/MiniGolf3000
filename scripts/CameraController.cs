@@ -6,7 +6,12 @@ public partial class CameraController : SpringArm3D
 	[Export] private Camera3D _camera;
 	[Export(PropertyHint.Range, "0.01,1,0.01")] private float _mouseSensitivity = 0.5f;
 	
+	// For Camera Movement Inputs
 	private Vector2 _cameraInputDirection = Vector2.Zero;
+	
+	// For Zooming In and Out
+	private const float MinSpringArmLength = 0.2f;
+	private const float MaxSpringArmLength = 5.0f;
 	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -38,7 +43,7 @@ public partial class CameraController : SpringArm3D
 	
 	public override void _Input(InputEvent @event)
 	{
-		// Event was a Key Press
+		// Event was a Key Input
 		if (@event is InputEventKey key)
 		{
 			// Key was Pressed
@@ -55,14 +60,36 @@ public partial class CameraController : SpringArm3D
 
 	public override void _UnhandledInput(InputEvent @event)
 	{
-		// Check if the Mouse has been Moved
-		if (@event is InputEventMouseMotion mouseMotion)
+		// Mouse Related Inputs
+		if (@event is InputEventMouse)
 		{
-			// Ensure that the Mouse Input Mode is set to Capture
-			if (Input.GetMouseMode() != Input.MouseModeEnum.Captured) return;
+			// Check if the Mouse Input was a Mouse Button
+			if (@event is InputEventMouseButton mouseButton)
+			{
+				// Scroll Wheel Up
+				if (mouseButton.ButtonIndex == MouseButton.WheelUp)
+				{
+					// Zoom In and Decrease the Spring Arm Length
+					this.SpringLength = (this.SpringLength <= MinSpringArmLength)
+						? this.SpringLength : this.SpringLength - 0.1f;
+				}
+				// Scroll Wheel Down
+				else if (mouseButton.ButtonIndex == MouseButton.WheelDown)
+				{
+					// Zoom Out and Increase the Spring Arm Length
+					this.SpringLength = (this.SpringLength >= MaxSpringArmLength)
+						? this.SpringLength : this.SpringLength + 0.1f;
+				}
+			}
+			// Check if the Mouse Input was a Mouse Movement
+			else if (@event is InputEventMouseMotion mouseMotion)
+			{
+				// Ensure that the Mouse Input Mode is set to Capture
+				if (Input.GetMouseMode() != Input.MouseModeEnum.Captured) return;
 			
-			// Camera Movement Input
-			this._cameraInputDirection = mouseMotion.ScreenRelative * this._mouseSensitivity;
+				// Camera Movement Input
+				this._cameraInputDirection = mouseMotion.ScreenRelative * this._mouseSensitivity;
+			}
 		}
 	}
 }
