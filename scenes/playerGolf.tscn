@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dxi8yl72ravl"]
+
+[ext_resource type="ArrayMesh" uid="uid://dlug2npxy2w3d" path="res://assets/models/ball-blue.glb" id="1_0mp73"]
+[ext_resource type="Script" uid="uid://c6kk5tm35xko2" path="res://scripts/PlayerGolfController.cs" id="1_atvk1"]
+[ext_resource type="Script" uid="uid://dpcc6ptxyw6pl" path="res://scripts/CameraController.cs" id="2_jfx8p"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2h81c"]
+friction = 0.6
+bounce = 0.6
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0mp73"]
+radius = 0.034971617
+
+[node name="PlayerGolfBall3D" type="RigidBody3D" unique_id=243748202 node_paths=PackedStringArray("_camera")]
+collision_mask = 2
+physics_material_override = SubResource("PhysicsMaterial_2h81c")
+can_sleep = false
+continuous_cd = true
+linear_damp = 0.5
+angular_damp = 1.0
+script = ExtResource("1_atvk1")
+_camera = NodePath("SpringArm3D/Node3D/Camera3D")
+
+[node name="BallBlue" type="MeshInstance3D" parent="." unique_id=800118167]
+mesh = ExtResource("1_0mp73")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=897175452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7.450208e-05, 0)
+shape = SubResource("SphereShape3D_0mp73")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="." unique_id=202938846 node_paths=PackedStringArray("_camera")]
+transform = Transform3D(1.0000002, 0, 0, 0, 1.0000004, 0, 0, 0, 0.99999976, 0, 0, 0)
+collision_mask = 2
+spring_length = 0.5
+script = ExtResource("2_jfx8p")
+_camera = NodePath("Node3D/Camera3D")
+
+[node name="Node3D" type="Node3D" parent="SpringArm3D" unique_id=659860486]
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D/Node3D" unique_id=1793101566]
+transform = Transform3D(0.99999976, 0, 0, 0, 0.99999964, 0, 0, 0, 1.0000002, 0, 0, 0)
+fov = 50.0

@@ -13,11 +13,18 @@ public partial class CameraController : SpringArm3D
 	private const float MinSpringArmLength = 0.2f;
 	private const float MaxSpringArmLength = 5.0f;
 	
+	// Parent Node
+	private Node3D _parent;
+	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
 		// Set the Mouse Input Mode to Capture
 		Input.SetMouseMode(Input.MouseModeEnum.Captured);
+		
+		// For Ignoring the Parent Rotation
+		this._parent = this.GetParent<Node3D>();
+		this.TopLevel = true;
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -39,6 +46,12 @@ public partial class CameraController : SpringArm3D
 		// Apply the Camera Movement
 		this.Rotation = cameraRotation;
 		this._cameraInputDirection = Vector2.Zero; // Reset the Camera Input Direction
+	}
+
+	public override void _PhysicsProcess(double delta)
+	{
+		// Follow the Parent Node's Position Transform only
+		this.GlobalPosition = this._parent.GlobalPosition;
 	}
 	
 	public override void _Input(InputEvent @event)
