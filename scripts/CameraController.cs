@@ -49,10 +49,28 @@ public partial class CameraController : SpringArm3D
 			// Key was Pressed
 			if (key.Pressed)
 			{
-				// Quit Game
-				if (key.IsActionPressed("QuitGame"))
+				// Exit Focus
+				if (key.IsActionPressed("ExitFocus"))
 				{
-					this.GetTree().Quit();
+					Input.SetMouseMode(Input.MouseModeEnum.Visible);
+				}
+			}
+		}
+		
+		// Event was a Mouse Input
+		if (@event is InputEventMouse mouseInput)
+		{
+			// Mouse Input was a Mouse Button
+			if (mouseInput is InputEventMouseButton mouseButton)
+			{
+				// Mouse Button was Pressed
+				if (mouseButton.Pressed)
+				{
+					// Enter Focus
+					if (mouseButton.IsActionPressed("EnterFocus"))
+					{
+						Input.SetMouseMode(Input.MouseModeEnum.Captured);
+					}
 				}
 			}
 		}
@@ -73,16 +91,18 @@ public partial class CameraController : SpringArm3D
 					this.SpringLength = (this.SpringLength <= MinSpringArmLength)
 						? this.SpringLength : this.SpringLength - 0.1f;
 				}
+				
 				// Scroll Wheel Down
-				else if (mouseButton.ButtonIndex == MouseButton.WheelDown)
+				if (mouseButton.ButtonIndex == MouseButton.WheelDown)
 				{
 					// Zoom Out and Increase the Spring Arm Length
 					this.SpringLength = (this.SpringLength >= MaxSpringArmLength)
 						? this.SpringLength : this.SpringLength + 0.1f;
 				}
 			}
+			
 			// Check if the Mouse Input was a Mouse Movement
-			else if (@event is InputEventMouseMotion mouseMotion)
+			if (@event is InputEventMouseMotion mouseMotion)
 			{
 				// Ensure that the Mouse Input Mode is set to Capture
 				if (Input.GetMouseMode() != Input.MouseModeEnum.Captured) return;
